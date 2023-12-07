@@ -106,12 +106,33 @@ nav ul li img {
   color: black;
 }
 
-.item img.add-to-cart-button {
+.item button.addtocart-button {
+  padding: 0;
+  border: none;
+  background: none;
+  cursor: pointer;
+  background-color: #F0A32F;
+  width: 52px;
+  height: 52px;
+}
+
+.item button.addtocart-button img {
+  max-width: 50px;
+  max-height: 50px;
+  border: 2px solid black;
+}
+
+.item button:hover {
+  background-color: rgb(29, 168, 29);
+}
+
+/*Button replaced and then remove below rule set*/
+/* .item img.add-to-cart-button {
   max-width: 50px;
   max-height: 50px;
   border: 2px solid black;
   background-color: #F0A32F;
-}
+} */
 
 .bottom-line {
   background: linear-gradient(180deg, rgb(235, 161, 77) 0%, rgba(141, 80, 11, 0) 100%);

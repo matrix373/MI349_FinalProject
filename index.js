@@ -21,3 +21,7 @@ function showSlides() {
 }
 
 showSlides();
+
+function itemPurchased() {
+    alert("Item has been added to the shopping cart");
+}
