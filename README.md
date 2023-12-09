@@ -22,3 +22,6 @@ https://www.flaticon.com/free-icon/add-to-cart_70021
 
 Maps Logo:
 https://en.wikipedia.org/wiki/Google_Maps_pin
+
+SlideShow Concept:
+https://www.w3schools.com/howto/howto_js_slideshow.asp

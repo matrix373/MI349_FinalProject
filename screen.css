@@ -24,6 +24,11 @@ header {
   max-width: 280px;
 }
 
+nav {
+  max-width: 100%;
+  overflow: hidden;
+}
+
 nav ul {
   list-style: none;
   display: flex;
@@ -31,7 +36,6 @@ nav ul {
 
 nav ul li {
   margin-right: 10px;
-  /**/
   width: auto;
 }
 
@@ -250,4 +254,63 @@ nav ul li img {
 .accounts img {
   width: 100%;
   height: 100%;
+}
+
+.about-us {
+  display: flex;
+  text-align: left;
+  padding: 20px;
+  margin-top: 20px;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.about-content {
+  flex: 1;
+  margin-right: 60px;
+}
+
+.about-us p {
+  font-size: 18px;
+  font-family: sans-serif;
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+
+.about-img {
+  justify-content: right;
+  background: url(images/shop-outside.jpeg);
+  background-position: center;
+  background-size: cover;
+  height: 500px;
+  width: 500px;
+  border-radius: 5%;
+}
+
+@media screen and (max-width: 1200px) {
+  .about-us {
+    flex-direction: column;
+  }
+
+  .about-content {
+    margin-right: 0;
+    margin-bottom: 30px;
+  }
+
+  .about-img {
+    width: 100%;
+    height: 500px;
+    border-radius: 5%;
+  }
+
+  .footer {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .column1,.column2,.column3 {
+    margin-bottom: 20px;
+  }
+
 }
