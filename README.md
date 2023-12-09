@@ -19,3 +19,6 @@ https://www.iconfinder.com/icons/7417237/home_button_home_ui_interface_building_
 
 Shopping Cart Icon:
 https://www.flaticon.com/free-icon/add-to-cart_70021
+
+Maps Logo:
+https://en.wikipedia.org/wiki/Google_Maps_pin
