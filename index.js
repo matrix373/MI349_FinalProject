@@ -25,3 +25,7 @@ showSlides();
 function itemPurchased() {
     alert("Item has been added to the shopping cart");
 }
+
+function openPage() {
+    window.location="index.html";
+}

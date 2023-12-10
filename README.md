@@ -25,3 +25,6 @@ https://en.wikipedia.org/wiki/Google_Maps_pin
 
 SlideShow Concept:
 https://www.w3schools.com/howto/howto_js_slideshow.asp
+
+Load page with button:
+https://stackoverflow.com/questions/48493102/javascript-load-an-html-page-with-button-click
