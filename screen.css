@@ -400,3 +400,7 @@ nav ul li img {
 .continue-shopping:hover {
   background-color: rgb(122, 248, 80);
 }
+
+label {
+  font-weight: bold;
+}
